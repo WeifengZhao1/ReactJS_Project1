@@ -1,0 +1,12 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%; 
+}
+
+.image-item {
+    width: calc(50% - 1%); 
+    max-height: 800px;
+    margin-bottom: 2%;
+    object-fit: cover; 
+}

@@ -1,0 +1,122 @@
+.container{
+    /* background-color: red; */
+    display:flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 30%;
+    box-shadow: 0px 0px 2px 3px rgba(11, 13, 13,0.6);
+    margin: 2% 0%;
+    transition: ease 800ms;
+    overflow: hidden; 
+    border-radius: 12px;
+    background-color: rgb(215, 219, 219);
+}
+
+.card:hover {
+    box-shadow: 0px 0px 5px 1px black;
+    transform: scale(1.035);
+}
+
+
+.card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+.card h2{
+    color:red;
+    text-align: center;
+}
+
+.description{
+    margin: 3%;
+    text-align: left;
+}
+
+.description p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.link {
+    /* background-color: red; */
+    margin: auto;
+    display: inline-block; 
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding-top: 20px; 
+}
+
+
+
+@media screen and (max-width:1000px){
+    body{
+        .card{
+            width: 45%;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    body{
+        .card{
+            width: 90%;
+        }
+       
+    }
+}
+
+@media screen and (max-width:400px){
+    body{
+        .card{
+            width: 100%;
+        }
+   }
+}
+
+
+
+
+
+
+/* Footer Section */
+.footer{
+	background-color: black;
+	height: 12vmin;
+    margin-top: 5vmin;
+    padding-top: 1%;
+    position: relative;
+    width: 100%;
+}
+
+
+.media-links{
+    color: white;
+	font-size: 1.5vmin;
+	font-family: 'Times New Roman', Times, serif;
+	flex-direction: column;
+	position: absolute;
+    left: 45%
+}
+
+
+.media-links a{
+	margin-left: 1vmin;
+	margin-right: 1vmin;
+}
+
+.media-links img{
+	width: 4vmin;
+	height: 4vmin;
+}

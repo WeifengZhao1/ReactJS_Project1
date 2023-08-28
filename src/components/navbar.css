@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.ui.button {
+    background-color: rgb(219, 226, 226);
+    color: white;
+    border: none;
+    margin: 5px;
+}
+
+.ui.button:hover {
+    background-color: white;
+}
+
